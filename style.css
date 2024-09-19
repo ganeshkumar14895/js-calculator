@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(1000_F_467501744_sAbqkprbnJYAaqXmcqS4OQ9gWtSdyRNb.jpg);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-size: cover;
+    font-family:sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.condainer
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.calculater
+{
+    display: grid;
+    grid-template-columns:repeat(4,100px);
+    gap: 10px;
+
+}
+button
+{
+    height: 50px;
+    background-color:color-mix(in srgb-linear, color percentage, color percentage);
+    font-size: larger;
+    border-radius: 100px;
+}
+button:hover
+{
+    border: 1px;
+    background-color: rgb(102, 113, 177);
+}
+input
+{
+    grid-column: span 4;
+    height: 50px;
+    border-radius: 20px;
+    font-size:40px;
+    text-align: end;
+}
+
